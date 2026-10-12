@@ -1,0 +1,1491 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    src: url('./fonts/Poppins-Regular.ttf');
+    font-family: Poppins-Regular;
+}
+@font-face{
+    src: url('./fonts/Poppins-SemiBold.ttf');
+    font-family: Poppins-SemiBold;
+}
+@font-face{
+    src: url('./fonts/Poppins-LightItalic.ttf');
+    font-family: Poppins-LightItalic;
+}
+@font-face{
+    src: url('./fonts/Poppins-Bold.ttf');
+    font-family:Poppins-Bold ;
+}
+
+/* index */
+.bi{
+   color: #F58634;
+}
+.contact-icon{
+    text-align: end;
+}
+.contact-icon a{
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Poppins-Regular;
+
+}
+.contact-icon a span{
+    font-size: 16px;
+    font-family: Poppins-Regular;
+    font-weight: 400;
+}
+.contact1-icon{
+    margin-top: 1%;
+}
+.navbar-brand{
+    width: 100%;
+}
+.row-nav{
+    padding-top: 2%;
+    padding-left: 2%;
+    margin-bottom: 1%;
+}
+.nav-link{
+    font-size: 15px;
+    font-family: Poppins-Regular;
+    color: #000;
+    font-weight: 400;
+}
+.nav-link:focus{
+    color: #F58634;
+}
+.btn{
+    background-color: #F58634;
+    color: #ffffff;
+    width: 145px;
+    height: 45px;
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 3%;
+}
+.btn:hover{
+    background-color: #F58634;
+    color: #000;
+}
+.Slider-1{
+    background-image: url('./images/Mask\ group\ \(19\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;;
+}
+.work-and-case{
+    max-width: 60%; 
+}
+.work-and{
+    color: #ffffff;
+    height: 90vh;
+    align-items: center;  
+}
+.work{
+    color: #F58634;
+}
+.work-and-case h2{
+    /* font-size: 72px; */
+    font-size: 70px;
+    font-family:Poppins-SemiBold;
+    font-weight: 600;
+    color: #ffffff;
+}
+.btn-donate{
+    width: 182px;
+    height: 53px;
+    border-radius: 30px;
+}
+.join-us{
+    background-color: transparent;
+    width: 165px;
+    height: 53px;
+    border-color: #ffffff;
+    border-radius:1px;
+    font-size: 20px;
+}
+.join-us:hover{
+    background-color: transparent;
+    border-color: #ffffff;
+    color: #F58634;
+}
+.join{
+    padding-top: 20px;
+}
+.Strip{
+    background-color: #F58634;
+    padding: 20px;
+    border-radius: 10px 0px 0px 10px;
+}
+.strip-img img{
+    width: 25%;
+}
+.Building{
+    font-size: 20px;
+    font-family:Poppins-Regular;
+    color: #ffffff;
+    font-weight: 400;
+}
+.Building p{
+    padding-top: 20px;
+    text-align: center;
+    padding-right: 30%;
+}
+.donate{
+    background-color: #000;
+    text-align: center;
+    border-radius: 0px 10px 10px 0px;
+}
+.donate-now{
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 40px;
+    font-size: 24px;
+    font-family:Poppins-SemiBold;
+    font-family: 600;
+
+}
+.donate .donate-now{
+    border: none;
+}
+.donate-now:hover{
+    background-color: #000;
+    color: #ffffff;
+    border: none;
+}
+.Australia{
+   position: relative;
+   top: 50px;
+   width: 100%;
+}
+.mission{
+    padding-top: 8%;
+    font-family:Poppins-Regular;
+    color: #000;
+}
+.mission h2{
+    font-size: 42px;
+    text-align: center;
+    font-weight: 600;
+}
+.mission h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+.family-row{
+    margin-top: 8%;
+}
+.family img{
+    width: 116px;
+}
+.family{
+    text-align: center;
+    color: #000;
+}
+.family h3{
+    font-family:Poppins-SemiBold ;
+    font-size: 24px;
+    font-family: 600;
+    margin: 5px 0px;
+}
+.family p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family:Poppins-Regular ;
+}
+.div-{
+    background-color: #F58634;
+    width: 30%;
+    height: 4px;
+    text-align: center;
+    margin: 20px 0px;
+}
+.Reach-servi img{
+    width: 100%;
+}
+.Reach-services{
+    padding-top: 2%;
+    font-family:Poppins-Regular;
+    color: #000;
+    padding-left: 30px;
+}
+.Reach-services h3{
+    font-size: 18px;
+    font-weight: 300;
+}
+.Reach-services h2{
+    font-size: 42px;
+    font-family:Poppins-SemiBold;
+    font-weight: 600;
+    color: #F58634;
+}
+.-reach{
+    margin-top: 5%;
+}
+.Read{
+    margin-top: 15%;
+    width: 182px;
+    height:53px ;
+    border-radius: 30px;
+}
+.With {
+    font-family: Poppins-LightItalic;
+    padding-left: 15px;
+}
+.lina{
+    display: flex;
+    flex-direction: row;
+}
+.lin{
+    width: 3px;
+    height: 80%;
+    background-color: #F58634;
+}
+.We-can{
+    display: block;
+}
+.how-we-make{
+    text-align: center;
+    font-family: Poppins-Regular;
+    color: #000;
+    margin: 7% 0%;
+}
+.how-we-make h2{
+    font-size: 42px;
+    font-weight: 600;
+    font-family:Poppins-SemiBold ;
+}
+.how-we-make p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.we-are{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20% 10%;
+    border-radius: 5%;
+}
+.empowering img{
+    width: 100%;
+    border-radius: 5%;
+}
+.Who-we-are{
+    gap: 30px;
+}
+.who-we{
+    font-family:Poppins-SemiBold ;
+    color: #000;
+    font-size:32px ;
+    font-weight: 600;
+}
+.we-are p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    font-family:Poppins-Regular ;
+
+}
+.we-are-img{
+    gap: 30px;
+}
+.compassionate img{
+    width: 100%;
+}
+.-row{
+    margin-top: 7%;
+}
+footer{
+    background-color: #000;
+    color: #F58634;
+    padding-top: 10%;
+    margin-top: 10%;
+    font-family: Poppins-Regular;
+}
+.quick-link{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    font-family:Poppins-SemiBold ;
+}
+.quick-link-orang{
+    background-color: #F58634;
+    width: 30%;
+    height: 4px;
+    margin-top: 5px;
+}
+.quick-link-orang1{
+    background-color: #F58634;
+    width: 50%;
+    height: 4px;
+    margin-top: 5px;
+}
+.PO{
+    padding-left: 7px;
+}
+.ivon .bi{
+    color: white;
+}
+.footer{
+    display: block;
+    color: white;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.join a .btn{
+    margin-top: 8%;
+}
+.join p{
+    color: #ffffff;
+}
+.Join-in{
+    color: white;
+    font-size:16px ;
+    font-family:  Poppins-Regular;
+    font-weight: 400;
+}
+.copyrit{
+    background-color: #2C2C2C;
+    margin-top: 5%;
+    padding-top: 4%;
+}
+.copyrit img{
+    width: 60%;
+}
+.copyrigh{
+    padding-top: 6%;
+    align-items: center;
+}
+.copyrigh p{
+    font-size: 18px;
+    font-family: 400;
+    font-family:Poppins-Regular;
+
+}
+/* index */
+
+/*  */
+/* about us */
+.Slider-3{
+    background-image: url('./images/Mask\ group.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}  
+.housin{
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+.housing{
+    font-family: Poppins-Regular;
+    color: white;
+    text-align: center;
+}
+.housing h2{
+    font-size:46px;
+    font-family: Poppins-Bold;
+    font-weight: 700;
+}
+.housing p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.d{
+    justify-content: center;
+}
+.div--{
+    background-color: #F58634;
+    width: 20%;
+    height: 4px;
+    margin-bottom: 10px;
+}
+.aboutus{
+    font-family: Poppins-Regular;
+    color: #000;
+    padding-top: 10%;
+    gap: 10px;
+}
+.aboutus h2{
+    font-size: 42px;
+    font-family: Poppins-Bold;
+    font-weight: 700;
+}
+.aboutus h4{
+    font-size: 22px;
+    font-family: 500;
+    font-family: Poppins-Bold;
+}
+.aboutus p{
+    font-weight: 500;
+    font-size: 18px;
+}
+.aboutus-img img{
+    width: 100%;
+}
+.Statistics{
+    font-family: Poppins-Regular;
+    color: #000;
+    margin-top: 10px;
+    font-size: 22px;
+}
+.Statistics p{
+   font-weight: 600;
+   font-size: 20px;
+}
+.graph{
+    font-size: 22px;
+    font-weight: 400;
+    font-family:Poppins-Regular;
+    margin-top: 8px;
+}
+.tick{
+    font-family: Poppins-Regular;
+    color: #000;
+}
+.tick-{
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.Where-to-get{
+    font-family: Poppins-Regular;
+    padding-top: 5%;
+    color: #000;
+}
+.Where-to-get h2{
+    font-size: 42px;
+    font-weight: 700;
+    font-family: Poppins-Bold;
+}
+/* what we do */
+.Slider-4{
+    background-image: url('./images/mask-slide-4.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.what-fo{
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.what-food{
+    justify-content: center;
+    text-align: center;
+    font-family: Poppins-Regular;
+    color: white;
+}
+.what-food h2{
+    font-size: 46px;
+    font-family:Poppins-SemiBold ;
+    font-weight: 600;
+}
+.what-food p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.what-d{
+    justify-content: center;
+}
+.what-div-{
+    width: 30%;
+    height: 4px;
+    background-color: #F58634;
+    margin-bottom: 1%;
+}
+
+.multi-faceted{
+    padding-top: 10%;
+    color: #000;
+    font-family: Poppins-Regular;
+}
+.multi-faceted h2{
+    margin-bottom: 4%;
+    font-size: 42px;
+    font-weight: 600;
+    font-family:Poppins-SemiBold ;
+}
+.multi-faceted p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.multi-faceted img{
+    width: 100%;
+}
+.outline{
+    margin-top: 2%;
+    font-family: Poppins-Regular;
+    color: #000;
+}
+.outline h4{
+    font-size: 26px;
+    font-weight: 600;
+}
+.outline p{
+    font-size:16px ;
+}
+.sect-what-we-do-{
+    margin-top: 5%;
+    font-family: Poppins-Regular;
+    color: #000;
+}
+.what-we-do-img-{
+    position: relative;
+    text-align: end;
+}
+.what-we-do-img- .what-we-do-img--{
+    position: absolute;
+    top: 50%;
+    left: 27%;
+}
+.Get-Help{
+    margin-top: 7%;
+    color: #000;
+    font-family: Poppins-Regular;
+}
+.Get-Help h2{
+    font-size: 42px;
+    font-weight: 600;
+    font-family:Poppins-SemiBold ;
+}
+.to{
+    margin-left: 1%;
+}
+/* career */
+.Slider-2{
+    background-image: url('./images/Mask\ group.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.care{
+    min-height: 100vh;
+    align-items: center;
+}
+.care-{
+    justify-content: center;
+}
+.caree{
+    background-color: #F58634;
+    width: 10%;
+    height: 4px;
+}
+.career{
+    text-align: center;
+    color: white;
+    font-family: Poppins-Regular;
+    font-size:16px ;
+    font-weight: 400;
+}
+.career h2{
+    font-size: 46px;
+    font-weight: 600;
+    font-family:Poppins-SemiBold  ;
+}
+.Sect-1{
+    padding-top: 5%;
+    font-family: Poppins-Regular;
+    color: #000;
+    font-size:16px ;
+    font-weight: 400;
+}
+.Sect-1 h2{
+    font-size:42px;
+    font-weight: 600;
+    font-family:Poppins-SemiBold  ;
+}
+
+.Sect-2{
+    padding: 3% 0%;
+    font-family: Poppins-Regular;
+    color: #000;
+    font-size:16px ;
+    font-weight: 400;
+}
+.Sect-2 h2{
+    font-size:42px;
+    font-weight: 600;
+    font-family:Poppins-SemiBold  ;
+}
+.Sect-2 h3{
+    font-size: 20px;
+    padding-top: 2%;
+   
+}
+.explore-opportunities{
+    color: #000;
+    font-family: Poppins-Regular;
+    
+}
+.open{
+    margin-top: 5%;
+}
+.Open-roles{
+   background-color: #D9D9D9;
+   width: 122px;
+   height:46px ;
+   font-size:16px ;
+   border-radius:6px ;
+   font-family: Poppins-Regular;
+   font-weight: 400;
+   color: #000;
+}
+.Open-roles:hover{
+    background-color: #D9D9D9;
+    color: #000;
+}
+.open h2{
+    font-size: 42px;
+    font-family:Poppins-SemiBold  ;
+    font-weight: 600;
+    margin: 3% 0%;
+}
+.regulatory{
+    background-color: #FBCFAE;
+    min-height: 20vh;
+   
+}
+.regulator{
+    min-height: 20vh;
+    align-items: center;
+}
+.mana{
+    padding-left: 3%;
+}
+.mana h2{
+    font-size: 24px;
+    font-weight: 400;
+    font-family:Poppins-SemiBold  ;
+}
+.mana h3{
+    font-size:18px ;
+    font-weight: 400;
+    font-family: Poppins-Regular;
+}
+.Apply-Now{
+    background-color: #000;
+    color: white;
+     font-family: Poppins-Regular;
+     font-weight: 400;
+     border-radius:6px ;
+    font-size: 16px;
+    height: 53px;
+    width: 150px;
+}
+.Apply-Now:hover{
+   background-color: #000;
+    color: white;
+}
+.Customer{
+background-color: #2C2C2C;
+width: 100%;
+height: 2px;
+}
+.Amazing{
+    padding: 5% 0%;
+
+}
+.Amazing h2{
+     font-family:Poppins-SemiBold  ;
+     font-size:42px ;
+     font-weight: 600;
+     margin-bottom: 2%;
+}
+.is-gap img{
+    width: 100%;
+    border-radius: 10px;
+}
+.aamaizing{
+    margin-top: 2%;
+}
+.aamaizing img{
+    width: 100%;
+    border-radius: 10px;
+}
+#career h2{
+     font-family:Poppins-SemiBold  ;
+     font-size:42px ;
+     font-weight: 600;
+     text-align: center;
+}
+.submit {
+    margin-top: 3%;
+    width: 166px;
+    height: 46px;
+    border-radius: 6px;
+    font-size: 20px;
+     font-family: Poppins-Regular;
+}
+
+
+/* blog */
+.img0{
+    background-image: url('./images/Mask\ group\ \(40\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+min-height: 40vh;
+    border-radius: 10px;
+}
+.img2{
+    background-image: url('./images/Mask\ group\ \(38\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+min-height: 40vh;
+    border-radius: 10px;
+}
+.img3{
+    background-image: url('./images/Mask\ group\ \(36\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+min-height: 40vh;
+    border-radius: 10px;
+}
+.img4{
+    background-image: url('./images/Mask\ group\ \(26\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh;
+    border-radius: 10px;
+}
+.img5{
+    background-image: url('./images/Mask\ group\ \(34\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh;
+    border-radius: 10px;
+}
+.img6{
+    background-image: url('./images/Mask\ group\ \(33\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh;
+    border-radius: 10px;
+    
+}
+.img7{
+    background-image: url('./images/Mask\ group\ \(39\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh;
+    border-radius: 10px;
+}
+.img8{
+    background-image: url('./images/Mask\ group\ \(37\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh;
+    border-radius: 10px;
+}
+.img9{
+    background-image: url('./images/Mask\ group\ \(35\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh;
+    border-radius: 10px;
+}
+.row-blog a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+.row-blog a .img0 h5{
+    padding-top: 90%;
+    padding-left: 4%;
+}
+.row-blog a .img0 p{
+    padding-left: 4%;
+}
+.row-blog a .img2 h5{
+    padding-top: 90%;
+    padding-left: 4%;
+}
+.row-blog a .img2 p{
+    padding-left: 4%;
+}
+.row-blog a .img3 h5{
+    padding-top: 90%;
+    padding-left: 4%;
+}
+.row-blog a .img3 p{
+    padding-left: 4%;
+}
+.row-blog a .img4 h5{
+    padding-top: 90%;
+    padding-left: 4%;
+}
+.row-blog a .img4 p{
+    padding-left: 4%;
+}
+.row-blog a .img5 h5{
+    padding-top: 90%;
+    padding-left: 4%;
+}
+.row-blog a .img5 p{
+    padding-left: 4%;
+}
+.row-blog a .img6 h5{
+    padding-top: 90%;
+    padding-left: 4%;
+}
+.row-blog a .img6 p{
+    padding-left: 4%;
+}
+.row-blog a .img7 h5{
+    padding-top: 90%;
+    padding-left: 4%;
+}
+.row-blog a .img7 p{
+    padding-left: 4%;
+}
+.row-blog a .img8 h5{
+    padding-top: 90%;
+    padding-left: 4%;
+}
+.row-blog a .img8 p{
+    padding-left: 4%;
+}
+.row-blog a .img9 h5{
+    padding-top: 90%;
+    padding-left: 4%;
+}
+.row-blog a .img9 p{
+    padding-left: 4%;
+}
+
+@media (min-width:768px) and (max-width:991.98px){
+       /* index */
+.navbar-brand{
+    width: 40%;
+}
+.row-nav-hea{
+    width: 100%;
+}
+.row-nav-header{
+    width: 100%;
+    flex-direction: row;
+    /* gap: px; */
+}
+.nav-width{
+    max-width: 49%;
+}
+.nav-width1{
+    max-width: 50%;
+    text-align: end;
+    padding-top: 5%;
+}
+.navbar-brand img{
+    width: 65%;
+}
+.contact-icon{
+    display: none;
+}
+.Slider-1{
+    min-height: 50vh;
+}
+.work-and{
+    height: 50vh;
+}
+.work-and-case h2{
+    font-size: 42px;
+}
+/* i will come back to create postion */
+.Australia{
+ display: none;
+}
+/* ill come to create postion */
+.btn{
+    width: 125px;
+    height: 50px;
+    font-size: 14px;
+}
+.btn-donate{
+    padding: 7px 10px;
+    border-radius: 10px;
+}
+.join-us{
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+.mission h2{
+    font-size: 32px;
+}
+.mission h3{
+    font-size: 16px;
+}
+
+
+.Reach-services{
+    text-align: center;
+}
+.-reach{
+    text-align: center;
+}
+.Reach-servi img{
+    width: 70%;
+}
+.Reach-services h2{
+    font-size: 32px;
+}
+
+.lin{
+    width: 4px;
+    margin: 0px;
+    height: 100%;
+}
+.With {
+   font-size: 14px;
+}
+.how-we-make h2{
+    font-size: 30px;
+}
+
+.we-are{
+    padding: 7% 4%;
+}
+.empowering{
+    text-align: center;
+}
+.empowering img{
+    width: 85%;
+    border-radius: 5%;
+}
+.who-we{
+    font-size:24px ;
+}
+
+
+
+
+.Read{
+    margin-top: 5%;
+}
+.quick-link-or{
+    text-align: center;
+}
+.quick-link-or .btn{
+    margin-top: 5%;
+}
+.footer-lin{
+    padding-left: 40%;
+    padding-bottom: 2%;
+}
+.quick-link{
+    margin-top: 5%;
+}
+.quick-link-orang1{
+    width: 30%;
+}
+
+.copyrit img{
+    width: 30%;
+}
+
+  /* index */
+
+  /* about */
+.Slider-3{
+    min-height: 50vh;
+    background-position: center;
+}  
+.housin{
+    min-height: 50vh;
+}
+.housing h2{
+    font-size: 32px;
+}
+.aboutus h2{
+    font-size: 32px;
+}
+.aboutus-img{
+    text-align: center;
+}
+.aboutus-img img{
+    width: 70%;
+}
+.gra img{
+    width: 100%;
+    margin-bottom: 3%;
+}
+.Statistics p{
+   font-size: 18px;
+}
+.tick-{
+    font-size: 18px;
+}
+.Where-to-get h2{
+    font-size: 22px;
+    margin-bottom: 6%;
+}
+.where-to-tic{
+    text-align: center;
+}
+.where-to-tic img{
+    width: 80%;
+    padding-top: 5%;
+}
+/* .where-to-tic img{
+    margin-top: 6%;
+    width: 100%;
+} */
+/* what we do */
+.Slider-4{
+    min-height: 50vh;
+}
+.what-fo{
+    min-height: 50vh;
+}
+.what-food h2{
+    font-size: 32px;
+}
+.multi-faceted h2{
+    font-size: 32px;
+}
+.outline h4{
+    font-size: 22px;
+    font-weight: 800;
+}
+.what-we-do-img--{
+    display: none;
+}
+.it-is-important{
+    margin-top: 2%;
+}
+.Get-Help{
+    margin-top: 7%;
+}
+.Get-Help h2{
+    margin-bottom: 3%;
+    font-weight: 700;
+}
+/* career */
+.Slider-2{
+    min-height: 50vh;
+}
+.care{
+    min-height: 50vh;
+}
+.career h2{
+    font-size: 32px;
+}
+.caree{
+    width: 20%;
+}
+.img1{
+    text-align: center;
+}
+.img1 img{
+    width: 80%;
+}
+.Sect-1 h2{
+    font-size: 24px;
+    padding-top: 5%;
+}
+.after-free img{
+    width: 100%;
+}
+.row-flexible {
+    text-align: center;
+    padding: 7% 0%;
+}
+.Sect-2 h2{
+    padding-left: 4%;
+    padding-right: 2%;
+    font-size: 24px;
+}
+.Sect-2 p{
+    padding-left: 4%;
+    padding-right: 2%;
+}
+.row-flexible{
+    gap: 10px;
+}
+.flexible-work{
+    max-width: 30%;
+}
+.free-holi{
+    max-width: 30%;
+}
+.new-device{
+    max-width: 30%;
+}
+.after-free{
+    text-align: center;
+}
+.after-free img{
+    width: 80%;
+}
+.open h2{
+    font-size: 32px;
+}
+.regulator{
+    min-height: 15vh;
+    padding: 5% ;
+}
+.mana{
+    text-align: center;
+}
+.mana h2{
+    font-size: 22px;
+}
+.bty{
+    text-align: center;
+    padding-bottom: 5%;
+    margin-top: 4%;
+}
+.bty .Apply-Now{
+    width: 150px;
+}
+.aamaizing img{
+    margin-top: 5%;
+}
+.Amazing h2{
+     font-size:32px ;
+}
+.is-gap img{
+    margin-top: 5%;
+}
+.is-gap {
+    max-width: 100%;
+}
+.is-gap .is-gap-im{
+    max-width: 33%;
+} 
+.aamaizing{
+    max-width: 100%;
+}
+.aamaizing .is-gap-im{
+        max-width: 33%;
+}
+#career h2{
+    font-size: 32px;
+}
+/* blog */
+.row-blog a .img0 h5{
+    padding-top: 80%;
+}
+.row-blog a .img2 h5{
+    padding-top: 80%;
+}
+.row-blog a .img3 h5{
+    padding-top: 80%;
+}
+.row-blog a .img4 h5{
+    padding-top: 80%;
+}
+.row-blog a .img5 h5{
+    padding-top: 70%;
+}
+.row-blog a .img6 h5{
+    padding-top: 80%;
+}
+.row-blog a .img7 h5{
+    padding-top: 80%;
+}
+.row-blog a .img8 h5{
+    padding-top: 80%;    
+}
+.row-blog a .img9 h5{
+    padding-top: 80%;
+}
+}
+
+@media (max-width:575.98px){
+    /* index */
+    .row-nav-hea{
+    width: 100%;
+}
+.row-nav-header{
+    width: 100%;
+    flex-direction: row;
+    /* gap: px; */
+}
+.nav-width{
+    max-width: 49%;
+}
+.nav-width1{
+    max-width: 50%;
+    text-align: end;
+    padding-top: 5%;
+}
+.contact-icon{
+    display: none;
+}
+  .navbar-brand{
+    width: 40%;
+}
+.navbar-brand img{
+    width: 85%;
+}
+.Slider-1{
+    min-height: 50vh;
+    background-position: center;
+}
+.work-and{
+    height: 50vh;
+}
+.work-and-case{
+    max-width: 100%;
+}
+.work-and-case h2{
+    font-size: 32px;
+    text-align: center;
+}
+.work-and-case .row .join{
+    max-width: 100%;
+    text-align: center;
+}
+/* ill come for postion later */
+.Australia{
+ display: none;
+}
+/* ill create postion later*/
+.btn{
+    width: 125px;
+    height: 50px;
+    font-size: 14px;
+}
+.btn-donate{
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+.join-us{
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.mission h2{
+    font-size: 24px;
+}
+.mission h3{
+    font-size: 14px;
+}
+
+.Reach-services{
+    text-align: center;
+}
+.Reach-services h2{
+    font-size: 24px;
+}
+.lin{
+    width: 4px;
+    margin: 0px;
+    height: 100%;
+}
+.lina{
+    margin: 10px 0px;
+}
+.With {
+   font-size: 13px;
+} 
+.how-we-make h2{
+    font-size: 24px;
+}
+.reach{
+    font-size: 16px;
+}
+.Read{
+    margin-top: 5%;
+}
+.we-are{
+    padding: 8% 4%;
+
+}
+.who-we{
+    font-size:24px ;
+}
+
+
+
+.quick-link-or{
+    text-align: center;
+}
+.quick-link-or .btn{
+    margin-top: 5%;
+}
+.footer-lin{
+    padding-left: 40%;
+    padding-bottom: 2%;
+}
+.quick-link{
+    margin-top: 5%;
+}
+.quick-link-orang1{
+    width: 30%;
+}
+.copyrit img{
+    width: 50%;
+}
+  /* index */
+  /* about */
+.Slider-3{
+    min-height: 50vh;
+    background-position: center;
+}  
+.housin{
+    min-height: 50vh;
+}
+.housing h2{
+    font-size: 24px;
+}
+.div--{
+    width: 35%;
+}
+.aboutus h2{
+    font-size: 20px;
+}
+.aboutus p{
+    font-size: 16px;
+}
+.aboutus h4{
+    font-size: 18px;
+}
+.gra img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.Statistics p{
+   font-size: 14px;
+}
+.tick-{
+    font-size: 18px;
+}
+.Where-to-get h2{
+    font-size: 18px;
+    margin-bottom: 6%;
+}
+.where-to-tic img{
+    margin-top: 6%;
+    width: 100%;
+}
+/* what we do */
+.Slider-4{
+    min-height: 50vh;
+}
+.what-fo{
+    min-height: 50vh;
+}
+.what-food h2{
+    font-size: 24px;
+}
+.multi-faceted h2{
+    font-size: 24px;
+}
+.outline h4{
+    font-size: 20px;
+    font-weight: 800;
+}
+.what-we-do-img--{
+    display: none;
+}
+.it-is-important{
+    margin-top: 2%;
+}
+.Get-Help{
+    margin: 7% 0%;
+}
+.what-we-do-img- img{
+    width: 100%;
+}
+.Get-Help h2{
+    margin-bottom: 3%;
+    font-weight: 700;
+    font-size: 24px;
+}
+.img img{
+    width: 100%;
+}
+.Slider-2{
+    min-height: 50vh;
+}
+.care{
+    min-height: 50vh;
+}
+.caree{
+    width: 40%;
+}
+.career h2{
+    font-size: 24px;
+}
+.career p{
+    font-size: 16px;
+}
+.img1 img{
+    width: 100%;
+}
+.Sect-1 h2{
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 4%;
+}
+.after-free img{
+    width: 100%;
+
+}
+.row-flexible {
+    text-align: center;
+    padding: 5% 0%;
+}
+.Sect-2 h2{
+    padding-left: 4%;
+        padding-right: 2%;
+            font-size: 24px;
+}
+.Sect-2 p{
+    padding-left: 4%;
+    padding-right: 2%;
+}
+.open h2{
+    font-size: 24px;
+}
+
+
+
+
+
+.mana{
+    text-align: center;
+}
+.mana h2{
+    font-size: 20px;
+}
+.bty{
+    text-align: center;
+    padding-bottom: 5%;
+    margin-top: 4%;
+}
+.bty .Apply-Now{
+    width: 150px;
+}
+.Amazing h2{
+     font-size:24px ;
+}
+.aamaizing img{
+    margin-top: 5%;
+}
+.is-gap img{
+    margin-top: 5%;
+}
+#career h2{
+    font-size: 24px;
+}
+
+}
